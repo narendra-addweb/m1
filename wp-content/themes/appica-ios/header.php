@@ -93,7 +93,12 @@
 									<p>m1-order enables print and mobile commerce for your business</p>
 									<h4>Create <strong>Store.</strong> Share <strong>Link.</strong> Get <strong>Orders.</strong></h4>
 								</div>
-								<div class="slideVideoButton"></div>
+								<div class="slideVideoButton"><?php
+								/*
+									Video presentation...
+								*/
+								echo do_shortcode('[appica_video_popup text="" video="http://vimeo.com/113575647"][vc_row el_class="fw-gray-bg padding-top-3x padding-bottom-3x" badge="hide" badge_align="left" icon_lib="fontawesome" icon_linecons="vc_li vc_li-heart" badge_pc="default" badge_tc="#bebebe" content_color="dark" uniq_id="posts" is_container="yes" overlay="disable" overlay_partial="no" overlay_type="gradient" overlay_opacity="70"]');
+								?></div>
 							</div>
 						</div>
 
