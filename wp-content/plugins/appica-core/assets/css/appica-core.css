@@ -1,0 +1,295 @@
+/*
+ * Social Networks
+ */
+.appica-social-group .appica-social-network,
+.appica-social-group .appica-social-url {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.appica-social-group .appica-social-url {
+    width: 500px;
+}
+
+/*
+ * Image preview column in entries list
+ */
+.column-image {
+    width: 10%;
+}
+
+/*
+ * Icons Popup
+ */
+.appica-core-filterable-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.appica-core-filterable-icons li {
+    display: inline-block;
+    width: 130px;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+    background: #FFF;
+}
+
+.appica-core-filterable-icons .active,
+.appica-core-filterable-icons li:hover {
+    background-color: #f6f6f6;
+}
+
+.appica-core-filterable-icons a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.appica-core-icon-preview {
+    display: block;
+    width: 120px;
+    margin-bottom: 10px;
+    text-align: center;
+    vertical-align: top;
+    background: #FFF;
+}
+
+/*
+ * Media
+ */
+.appica-core-media-preview img {
+    width: 15%;
+    height: auto;
+}
+
+/*
+ * Button color & vc_row Badge
+ */
+.appica-badge-color .wpb_vc_param_value,
+.appica-button-color .wpb_vc_param_value,
+.appica-badge-color option,
+.appica-button-color option {
+    color: #fff !important;
+}
+
+.appica-badge-color .badge_pc > option {
+    color: #000 !important;
+}
+
+.appica-button-color .default {
+    background: #494949;
+}
+
+.appica-button-color .primary,
+.appica-badge-color .primary {
+    background: #007AFF;
+}
+
+.appica-button-color .success,
+.appica-badge-color .success {
+    background: #4CD964;
+}
+
+.appica-button-color .info,
+.appica-badge-color .info {
+    background: #5AC8FA;
+}
+
+.appica-button-color .warning,
+.appica-badge-color .warning, {
+    background: #FC0;
+}
+
+.appica-button-color .danger,
+.appica-badge-color .danger {
+    background: #FF2D55;
+}
+
+/* vc_row Badge color for iOS version */
+.appica-badge-color .default {
+    background-color: rgba(0,255,128,1);
+    background-image: -moz-linear-gradient(top, rgba(0,255,128,1) 0%, rgba(0,119,255,1) 100%);
+    background-image: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,255,128,1)), color-stop(100%, rgba(0,119,255,1)));
+    background-image: -webkit-linear-gradient(top, rgba(0,255,128,1) 0%, rgba(0,119,255,1) 100%);
+    background-image: -o-linear-gradient(top, rgba(0,255,128,1) 0%, rgba(0,119,255,1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(0,255,128,1) 0%, rgba(0,119,255,1) 100%);
+    background-image: linear-gradient(to bottom, rgba(0,255,128,1) 0%, rgba(0,119,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff80', endColorstr='#0077ff', GradientType=0 );
+}
+
+.appica-badge-color .alt-color {
+    background-color: rgba(242,255,0,1);
+    background-image: -moz-linear-gradient(top, rgba(242,255,0,1) 0%, rgba(0,255,204,1) 100%);
+    background-image: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,255,0,1)), color-stop(100%, rgba(0,255,204,1)));
+    background-image: -webkit-linear-gradient(top, rgba(242,255,0,1) 0%, rgba(0,255,204,1) 100%);
+    background-image: -o-linear-gradient(top, rgba(242,255,0,1) 0%, rgba(0,255,204,1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(242,255,0,1) 0%, rgba(0,255,204,1) 100%);
+    background-image: linear-gradient(to bottom, rgba(242,255,0,1) 0%, rgba(0,255,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2ff00', endColorstr='#00ffcc', GradientType=0 );
+}
+
+.appica-badge-color .alt-color-2 {
+    background-color: rgba(80,251,220,1);
+    background-image: -moz-linear-gradient(top, rgba(80,251,220,1) 0%, rgba(86,194,244,1) 100%);
+    background-image: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(80,251,220,1)), color-stop(100%, rgba(86,194,244,1)));
+    background-image: -webkit-linear-gradient(top, rgba(80,251,220,1) 0%, rgba(86,194,244,1) 100%);
+    background-image: -o-linear-gradient(top, rgba(80,251,220,1) 0%, rgba(86,194,244,1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(80,251,220,1) 0%, rgba(86,194,244,1) 100%);
+    background-image: linear-gradient(to bottom, rgba(80,251,220,1) 0%, rgba(86,194,244,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50fbdc', endColorstr='#56c2f4', GradientType=0 );
+}
+
+.appica-badge-color .alt-color-3 {
+    background-color: rgba(0,187,255,1);
+    background-image: -moz-linear-gradient(top, rgba(0,187,255,1) 0%, rgba(0,123,255,1) 100%);
+    background-image: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,187,255,1)), color-stop(100%, rgba(0,123,255,1)));
+    background-image: -webkit-linear-gradient(top, rgba(0,187,255,1) 0%, rgba(0,123,255,1) 100%);
+    background-image: -o-linear-gradient(top, rgba(0,187,255,1) 0%, rgba(0,123,255,1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(0,187,255,1) 0%, rgba(0,123,255,1) 100%);
+    background-image: linear-gradient(to bottom, rgba(0,187,255,1) 0%, rgba(0,123,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bbff', endColorstr='#007bff', GradientType=0 );
+}
+
+.appica-badge-color .alt-color-4 {
+    background-color: rgba(76,217,99,1);
+    background-image: -moz-linear-gradient(top, rgba(76,217,99,1) 0%, rgba(24,181,53,1) 100%);
+    background-image: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,217,99,1)), color-stop(100%, rgba(24,181,53,1)));
+    background-image: -webkit-linear-gradient(top, rgba(76,217,99,1) 0%, rgba(24,181,53,1) 100%);
+    background-image: -o-linear-gradient(top, rgba(76,217,99,1) 0%, rgba(24,181,53,1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(76,217,99,1) 0%, rgba(24,181,53,1) 100%);
+    background-image: linear-gradient(to bottom, rgba(76,217,99,1) 0%, rgba(24,181,53,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4cd963', endColorstr='#18b535', GradientType=0 );
+}
+
+
+/*
+ * Theme settings, social networks fields
+ */
+.pios-social-networks-wrap {
+    margin-bottom: 10px;
+}
+
+.pios-social-network, .pios-social-url {
+    float: none;
+    vertical-align: middle
+}
+
+.pios-social-network {
+    width: auto;
+}
+
+.pios-social-url {
+    min-width: 300px;
+}
+
+.appica-video-holder {
+    text-align: center;
+}
+
+.appica-video-holder iframe {
+    width: 100%;
+    height: auto;
+}
+
+/*
+ * Icons Popup
+ */
+.pios-filterable-icons,
+.appica-core-filterable-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pios-filterable-icons li,
+.appica-core-filterable-icons li {
+    display: inline-block;
+    width: 130px;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+    background: #FFF;
+}
+
+.pios-filterable-icons .active,
+.pios-filterable-icons li:hover,
+.appica-core-filterable-icons .active,
+.appica-core-filterable-icons li:hover {
+    background-color: #f6f6f6;
+}
+
+.pios-filterable-icons a,
+.appica-core-filterable-icons a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+.pios-icon-preview {
+    display: block;
+    width: 120px;
+    margin-bottom: 10px;
+    text-align: center;
+    vertical-align: top;
+    background: #FFF;
+}
+
+/*
+ * Visual Composer Fix,
+ */
+[data-param_name="overlay_gc_start"] .vc_alpha-container,
+[data-param_name="overlay_gc_end"] .vc_alpha-container {
+    display: none !important;
+}
+
+.redux-container .sticky-save-warn .redux-save-warn {
+    z-index: 9;
+}
+
+.appica-single-settings label {
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+.appica-single-settings .description {
+    margin-top: 7px;
+}
+
+/* Default templates fix */
+.appica-custom-template .vc_templates-image {
+    background-size: contain;
+}
+
+/* Flaticons fix */
+.pios-filterable-icons a > i,
+.appica-core-filterable-icons a > i,
+.appica-core-icon-preview i,
+.pios-icon-preview i {
+    font-size: 44px !important;
+}
+
+[class^="flaticon-"], [class*=" flaticon-"],
+[class^="flaticon-"], [class*=" flaticon-"] {
+    padding: 10px;
+    display: block;
+    font-family: "Flaticon";
+    font-size: 64px;
+    line-height: 1;
+}
+
+.vc-icons-selector .selected-icon [class^="flaticon-"],
+.vc-icons-selector .selected-icon [class*=" flaticon-"],
+.vc-icons-selector .selected-icon [class^="flaticon-"],
+.vc-icons-selector .selected-icon [class*=" flaticon-"] {
+    padding: 0;
+}
+
+.vc-icons-selector .selector-popup [class^="flaticon-"],
+.vc-icons-selector .selector-popup [class*=" flaticon-"],
+.vc-icons-selector .selector-popup [class^="flaticon-"],
+.vc-icons-selector .selector-popup [class*=" flaticon-"] {
+    font-size: 20px;
+}
