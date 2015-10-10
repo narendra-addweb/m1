@@ -167,6 +167,10 @@ if ( ! function_exists( 'appica_scripts' ) ) :
 		// enqueue theme main style.css file
 		wp_enqueue_style( 'appica', get_stylesheet_uri(), $style_deps, null );
 
+		// enqueue theme main m1order.css file
+		wp_register_style( 'm1order', $template_directory_uri . '/css/m1order.css' );
+ 		wp_enqueue_style( 'm1order');
+ 		
 		// scripts in <head>
 		wp_enqueue_script( 'appica-pace', $template_directory_uri . '/js/plugins/pace.min.js', array(), null );
 		wp_enqueue_script( 'appica-modernizr', $template_directory_uri . '/js/libs/modernizr.custom.js', array(), null );
