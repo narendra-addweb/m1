@@ -3,3 +3,51 @@
  * Layout CSS
  */
 
+/**
+ * Header
+ */
+.header-logo.logo {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.header-logo-sub {
+  display: inline-block;
+  width: auto;
+  margin: 260px auto 0;
+}
+.header-logo .logo {
+  float: left;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.header-logo .logo img { margin: 0; }
+.before-logo, .after-logo {
+  float: left;
+  display: inline-block;
+  min-width: 560px;
+  width: auto;
+  height: 180px;
+  margin: 0 5px 0 0;
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center right;
+}
+.after-logo {
+  margin: 0 0 0 5px;
+  background-position: center left;
+}
+
+.intro .phone {
+  margin-bottom: -850px;
+}
+
+
+/* Loader */
+.pace .pace-progress {
+  background-color: #d91b25;
+}

@@ -66,6 +66,14 @@
 					<div class="gradient"></div>
 				<?php endif; ?>
 
+				<div class="header-logo logo">
+					<div class="header-logo-sub">
+						<div class="before-logo"></div>
+						<?php appica_intro_logo(); ?>
+						<div class="after-logo"></div>
+					</div>
+				</div>
+
 				<div class="container">
 					<div class="column-wrap">
 						<div class="column c-left">
@@ -74,9 +82,6 @@
 						</div>
 
 						<div class="column c-middle">
-							<div class="beforeLogo"></div>
-							<?php appica_intro_logo(); ?>
-							<div class="afterLogo"></div>
 							<?php //appica_intro_screen(); ?>
 							<div class="slideCont phone">
 								<div class="logoupper" style="display:none;"><?php
