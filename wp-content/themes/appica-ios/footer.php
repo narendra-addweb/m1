@@ -59,7 +59,9 @@ if ( appica_is_intro() ) : ?>
 				) );
 			endif; ?>
 			</div>
-
+			<div class="column footer-nav footer-social">
+				<?php appica_intro_socials(); ?>
+			</div>
 			<?php unset( $appica_is_device ); ?>
 		</div>
 	</div>
