@@ -155,14 +155,19 @@
 /**
  * Footer
  */
-.above-footer { background-color: #171113; }
+.above-footer {
+  padding: 100px 0;
+  background-color: #171113;
+}
 
 /* Above footer left */
 .above-footer h4 {
   color: #fff;
   font-size: 30px;
 }
-.above-footer form input{ 
+.above-footer form input,
+.above-footer form select {
+  background: none;
   padding: 5px 20px;
   border: 1px solid #fff;
   color: #fff;
