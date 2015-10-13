@@ -128,9 +128,9 @@
 	<header class="<?php appica_the_sticky_navbar(); ?>">
 		<div class="container">
 
-			<?php appica_navbar_logo(); ?>
+			<?php //appica_navbar_logo(); ?>
 			<?php //appica_navbar_socials(); ?>
-
+			
 			<div class="toolbar">
 				<?php appica_navbar_download_button(); ?>
 				<?php appica_navbar_subscribe(); ?>
