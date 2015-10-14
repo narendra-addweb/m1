@@ -83,6 +83,7 @@
 
 						<div class="column c-middle">
 							<?php //appica_intro_screen(); ?>
+							<?php appica_intro_logo(); ?>
 							<div class="slideCont phone">
 								<div class="logoupper" style="display:none;"><?php
 									$logo     = appica_get_option( 'intro_logo' );
