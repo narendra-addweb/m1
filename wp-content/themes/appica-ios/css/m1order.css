@@ -9,10 +9,12 @@
 @font-face {
   font-family: BPREPLAY;
   src: url(../fonts/BPREPLAY.woff);
+  font-weight: normal;
 }
 @font-face {
   font-family: BPREPLAYBOLD;
   src: url(../fonts/BPREPLAYBOLD.woff);
+  font-weight: normal;
 }
 
 /* */
@@ -58,9 +60,52 @@ body { font-family: BPREPLAY; }
   background-position: center left;
 }
 
+.intro .phone::after { background: none; }
 .intro .phone {
-  margin-bottom: -850px;
+  width: 710px;
+  margin-bottom: -800px;
+  padding: 100px 0 0 ;
 }
+.column-wrap .slideTextContent h4 {
+  font-weight: normal;
+}
+.column-wrap .slideTextContent h4 strong { font-family: BPREPLAYBOLD; }
+
+.slideVideoButton {
+  position: relative;
+  z-index: 99;
+}
+.slideVideoButton .video-popup > i:before { content: none; }
+.slideVideoButton .video-popup > i {
+  width: 120px;
+  height: 120px;
+  background-image: url(../img/play.png);
+  background-size: auto;
+  background-position: center;
+}
+
+.navbar-sticky .toolbar {}
+.navbar-sticky .toolbar {}
+.navbar-sticky .toolbar > a {
+  display: inline-block;
+  margin: 0 7px;
+  padding: 5px 0;
+  border-bottom: 1px solid #ee3135;
+  color: #201d1d;
+  font-size: 14px;
+}
+.navbar-sticky .toolbar > a.home {
+  width: 28px;
+  height: 23px;
+  border-bottom: none;
+  background-image: url(../img/home-icon.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  font-size: 0;
+}
+.navbar-sticky .toolbar > a.sing-in {}
+
 
 /* Logo */
 .intro .logo,
@@ -79,14 +124,35 @@ body { font-family: BPREPLAY; }
   max-width: 96px;
 }
 .intro.transformed .phone {
-  -webkit-transform: translateY(-70%) scale(0.75);
-          transform: translateY(-70%) scale(0.75);
+  -webkit-transform: translateY(-80%) scale(0.75);
+          transform: translateY(-80%) scale(0.75);
 }
 .intro.transformed .intro-features .icon-block {
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
+
+.scroll-logo-sub {
+  margin: 0 0 100px;
+  text-align: center;
+}
+.intro.transformed .scroll-logo-sub .logo {
+  display: inline-block;
+  width: 185px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+.intro.transformed .scroll-logo-sub .logo img {
+  max-width: 185px;
+  width: 100%;
+  margin-bottom: 0;
+}
+.scroll-logo-sub .logo img { max-width: 185px; }
+
 
 
 /* Loader */

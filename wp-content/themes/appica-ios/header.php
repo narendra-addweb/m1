@@ -83,7 +83,7 @@
 
 						<div class="column c-middle">
 							<?php //appica_intro_screen(); ?>
-							<?php appica_intro_logo(); ?>
+							
 							<div class="slideCont phone">
 								<div class="logoupper" style="display:none;"><?php
 									$logo     = appica_get_option( 'intro_logo' );
@@ -95,6 +95,9 @@
 									}
 								?></div>
 								<div class="slideTextContent">
+									<div class="scroll-logo-sub">
+										<?php appica_intro_logo(); ?>
+									</div>
 									<h3>Changing The Way The World Orders</h3>
 									<p>m1-order enables print and mobile commerce for your business</p>
 									<h4>Create <strong>Store.</strong> Share <strong>Link.</strong> Get <strong>Orders.</strong></h4>
@@ -110,7 +113,9 @@
 
 						<div class="column c-right">
 							<div class="navi">
-								<?php appica_intro_subscribe(); ?>
+								<?php/* appica_intro_subscribe(); */?>
+								<a class='get-started' href='<?php echo get_permalink(1216); ?>'>Get Started</a>
+                                <a class='sing-in' href=''>SIGN IN</a>
 								<div class="nav-toggle" data-offcanvas="open"><i class="flaticon-list26"></i></div>
 							</div>
 
