@@ -128,12 +128,15 @@
 	<header class="<?php appica_the_sticky_navbar(); ?>">
 		<div class="container">
 
-			<?php //appica_navbar_logo(); ?>
+			<?php appica_navbar_logo();?>
 			<?php //appica_navbar_socials(); ?>
 			
 			<div class="toolbar">
 				<?php appica_navbar_download_button(); ?>
 				<?php appica_navbar_subscribe(); ?>
+				<a class='home' href='<?php get_home_url(); ?>'>Home</a>
+				<a class='get-started' href='<?php echo get_permalink(1216); ?>'>Get Started</a>
+				<a class='sing-in' href=''>SIGN IN</a>
 				<div class="nav-toggle" data-offcanvas="open"><i class="flaticon-list26"></i></div>
 			</div>
 
