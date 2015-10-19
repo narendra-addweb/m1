@@ -5605,6 +5605,7 @@ textarea.form-control {
     height: 566px;
 }
 
+
 @media screen and (max-width: 1200px) {
     .portfolio-grid .grid-item { margin-bottom: 25px; }
 }
@@ -5754,3 +5755,170 @@ textarea.form-control {
         transform: rotate(359deg);
     }
 }
+
+/*
+--------------------------------------------------------------------------------
+*/
+
+
+/**
+ * Header
+ */
+.navbar.gray {
+  border-bottom: 1px solid #d6d6d6;
+  background-color: #fff;
+}
+.header-logo.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  min-width: 3000px;
+  width: 100%;
+  margin: -130px 0 0 -1500px;
+  padding: 0;
+}
+.header-logo-sub {
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+}
+.header-logo .logo {
+  float: left;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.header-logo .logo > img {
+  max-width: 260px;
+  width: 100%;
+  margin: 0;
+}
+
+.before-logo,
+.after-logo {
+  float: left;
+  display: inline-block;
+  min-width: 1000px;
+  width: auto;
+  height: 260px;
+  margin: 0 5px 0 0;
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center right;
+  -webkit-transition: all 0.5s ease 0s;
+     -moz-transition: all 0.5s ease 0s;
+          transition: all 0.5s ease 0s;
+}
+.after-logo {
+  margin: 0 0 0 5px;
+  background-position: center left;
+}
+
+/* Logo */
+.intro .logo,
+.intro.transformed .logo .logo {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+/* Transform Animation */
+.intro.transformed .logo {
+  -webkit-transform: translate(0, -130px);
+          transform: translate(0, -130px);
+}
+.intro.transformed .logo img {
+  max-width: 185px;
+}
+.intro.transformed .phone {
+  -webkit-transform: translateY(-70%) scale(0.75);
+          transform: translateY(-70%) scale(0.75);
+}
+.intro.transformed .intro-features .icon-block {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.intro.transformed .logo .after-logo,
+.intro.transformed .logo .before-logo {
+  width: 0;
+  min-width: 0;
+  height: 185px;
+  /*-webkit-transform: scale(0, 0);
+     -moz-transform: scale(0, 0);
+      -ms-transform: scale(0, 0);
+          transform: scale(0, 0);*/
+}
+
+.scroll-logo-sub {
+  margin: 0 0 120px;
+  text-align: center;
+}
+.intro.transformed .scroll-logo-sub .logo {
+  display: inline-block;
+  width: 185px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+.intro.transformed .scroll-logo-sub .logo img {
+  max-width: 185px;
+  width: 100%;
+  margin-bottom: 0;
+}
+.scroll-logo-sub .logo img { max-width: 185px; }
+
+
+
+/**
+ * Responsive design
+ */
+@media screen and (max-width: 1600px) {
+  .header-logo.logo { margin-top: -100px; }
+  .header-logo .logo > img { max-width: 200px; }
+  .before-logo, .after-logo { height: 200px; }
+  .scroll-logo-sub .logo img { max-width: 170px; }
+  .intro.transformed .logo img { max-width: 150px; }
+  .intro.transformed .logo .after-logo, .intro.transformed .logo .before-logo {
+    height: 150px;
+  }
+} /* 1600px */
+
+@media screen and (max-width: 1366px) {
+  /*.header-logo.logo { margin-top: -70px; }
+  .header-logo .logo > img { max-width: 140px; }
+  .before-logo, .after-logo { height: 140px; }*/
+  .intro.transformed .logo {
+    -webkit-transform: translate(0px, -150px);
+            transform: translate(0px, -150px);
+  }
+} /* 1366px */
+
+/* Small desktop monitor view */
+@media screen and (max-width: 1200px) {
+  
+} /* 1200px */
+
+/* Tablet and i-pad landscape & portrait view */
+@media screen and (max-width: 1024px) {
+  
+} /* 1024px */
+
+/* Tablet and i-pad portrait view only */
+@media screen and (max-width: 992px) {
+  
+} /* 992px */
+
+/* Mobile landscape & portrait view */
+@media screen and (max-width: 767px) {
+  
+} /* 767px */
+
+/* Mobile portrait view only */
+@media screen and (max-width: 480px) {
+  
+} /* 480px */

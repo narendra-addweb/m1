@@ -96,7 +96,7 @@
 								?></div>
 								<div class="slideTextContent">
 									<div class="scroll-logo-sub">
-										<?php appica_intro_logo(); ?>
+										<?php// appica_intro_logo(); ?>
 									</div>
 									<h3>Changing The Way The World Orders</h3>
 									<p>m1-order enables print and mobile commerce for your business</p>
@@ -115,7 +115,7 @@
 							<div class="navi">
 								<?php/* appica_intro_subscribe(); */?>
 								<a class='get-started' href='<?php echo get_permalink(1216); ?>'>Get Started</a>
-                                <a class='sing-in' href=''>SIGN IN</a>
+                                <a class='sing-in' href=''>sign in</a>
 								<div class="nav-toggle" data-offcanvas="open"><i class="flaticon-list26"></i></div>
 							</div>
 
@@ -142,7 +142,7 @@
 				<?php appica_navbar_subscribe(); ?>
 				<a class='home' href='<?php get_home_url(); ?>'>Home</a>
 				<a class='get-started' href='<?php echo get_permalink(1216); ?>'>Get Started</a>
-				<a class='sing-in' href=''>SIGN IN</a>
+				<a class='sing-in' href=''>sign in</a>
 				<div class="nav-toggle" data-offcanvas="open"><i class="flaticon-list26"></i></div>
 			</div>
 
